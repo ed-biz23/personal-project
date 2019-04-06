@@ -1,22 +1,35 @@
 body{
+    /* Lets the whole page get used  */
     margin: 0;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-header{
-    background-color: #595959;
-    color: #ffffff;
-}
-
-nav{
+.nav{
+    background-color: rgba(20, 32, 209, 0.363);
     text-align: center;
-    padding: 5px 0 5px 0;
-    
+    /* Removes the dots from the list items */
+    list-style: none;
+    padding: 20px 0 20px 0;
+    /* HEADACHE: Removes the top margin that the ul was making */
+    margin-block-start: 0;
 }
 
-nav > ul{
-    list-style: none;
+.nav > li{
+    /* Lets the list items move left to right of one another */
     display: inline-block;
+    /* Adds padding to the right of the list */
+    padding-right: 20px;
+}
+
+.nav > li > a{
+    text-decoration: none;
+}
+
+/* Makes all the images a bit more responsive, scales them 
+whilst the page size is changed */
+img{
+    width: 100%;
+    height: auto;
 }
 

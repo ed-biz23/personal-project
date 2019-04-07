@@ -2,34 +2,65 @@ body{
     /* Lets the whole page get used  */
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.nav{
-    background-color: rgba(20, 32, 209, 0.363);
-    text-align: center;
-    /* Removes the dots from the list items */
-    list-style: none;
-    padding: 20px 0 20px 0;
-    /* HEADACHE: Removes the top margin that the ul was making */
-    margin-block-start: 0;
+.navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 80px; /* change it to desired width */
+    background-color: rgba(9, 245, 213, 0.3); /* change to desired color */
 }
 
-.nav > li{
-    /* Lets the list items move left to right of one another */
-    display: inline-block;
-    /* Adds padding to the right of the list */
-    padding-right: 20px;
+.logo {
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding-top: 10px;
 }
 
-.nav > li > a{
-    text-decoration: none;
-}
-
-/* Makes all the images a bit more responsive, scales them 
-whilst the page size is changed */
-img{
+.navigation-bar {
+    background-color:  rgb(0, 255, 221, 0.3);
+    height: 70px;
     width: 100%;
+    text-align: center;
+}
+
+.navigation-bar ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+}
+
+.navigation-bar li {
+    list-style-type: none;
+    padding-right: 20px;
+    display: inline;
+}
+
+.navigation-bar li a {
+    color: rgb(224, 14, 243, 0.5);
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px;
+}
+
+.navigation-bar li a:hover, .navigation-bar li a:active { 
+    font-size: 45px;
+}
+
+td img {
+    width: 70%;
     height: auto;
 }
 
+.flavors_right { 
+    background-color: rgb(0, 255, 221, 0.3);
+    text-align: right;
+}
+
+.flavors_left { 
+    background-color: rgba(255, 0, 140, 0.3);
+}

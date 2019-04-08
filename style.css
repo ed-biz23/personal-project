@@ -34,7 +34,8 @@ body {
     display: inline-block;
     font-size: 15px;
     margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /*for safari */
+    -webkit-transition-duration: 0.4s;
+    /*for safari */
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -42,14 +43,15 @@ body {
 .button1 {
     background-color: white;
     color: black;
-    border: 2px solid rgb(255, 9, 173);;
+    border: 2px solid rgb(255, 9, 173);
+    ;
     border-radius: 50%;
 }
 
 .button1:hover {
     background-color: rgb(255, 9, 173);
     color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .content {
